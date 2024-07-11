@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "sf-pro-display-medium";
+  src: url("../assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+@font-face {
+  font-family: "sf-pro-display-bold";
+  src: url("../assets/fonts/SFPRODISPLAYBOLD.OTF");
+}
+
+@layer {
+  body{
+    @apply font-SFmedium
+  }
+}

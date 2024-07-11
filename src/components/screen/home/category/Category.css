@@ -1,0 +1,31 @@
+.slick-arrow {
+    color: black !important;
+    top: -2.5rem;
+}
+.slick-next{
+    right: .5rem;
+}
+.slick-prev{
+    left: 93%;
+}
+.slick-prev, .slick-next {
+    width: 27px;
+    height: 27px;
+}
+
+@media (min-width:320px) and (max-width:575.99px){
+    .slick-next{
+        right: -0.2rem;
+    }
+    .slick-prev{
+        left: 83%;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .slick-next{
+        right: -0.2rem;
+    }
+    .slick-prev{
+        left: 87%;
+    }
+}
