@@ -22,7 +22,7 @@ const Products = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 { current === 1 &&
                     Array.from({length:8}).map((_,i)=>(
-                        <ProductCard key={i} />
+                        <ProductCard key={i} index={i}/>
                     ))
                 }
                 { current === 2 &&
