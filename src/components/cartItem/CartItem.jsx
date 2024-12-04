@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { HiMinus, HiPlus } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
-import Iphone14pro from '@/assets/images/products/Iphone14pro.svg'
+import Iphone14pro from '@/assets/images/products/Iphone14pro.webp'
 import Image from 'next/image';
 const CartItem = () => {
     const [count, setCount] = useState(1);

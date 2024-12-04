@@ -6,8 +6,8 @@ export const menus =[
     },
     {
         id:2,
-        title:'About', 
-        url:'/about'
+        title:'Shop', 
+        url:'/shop'
     },
     {
         id:3,

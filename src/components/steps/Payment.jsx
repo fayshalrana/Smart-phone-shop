@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import CreditCard_Image from '@/assets/images/CreditCard_Image.svg'
+import CreditCard_Image from '@/assets/images/CreditCard_Image.webp'
 import CheckBox from '../checkBox/CheckBox'
-const Payment = ({setShowStep}) => {
+const Payment = ({ setShowStep }) => {
     const [isOpen, setIsOpen] = useState(1)
     return (
         <div className='flex flex-col'>

@@ -1,14 +1,14 @@
 import PrimaryButton from '@/components/button/PrimaryButton'
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/assets/images/left.svg'
-import img2 from '@/assets/images/right.svg'
+import img1 from '@/assets/images/left.webp'
+import img2 from '@/assets/images/right.webp'
 
-import pc from '@/assets/images/calltoaction/pc.svg'
-import laptop from '@/assets/images/calltoaction/laptop.svg'
-import phone from '@/assets/images/calltoaction/phone.svg'
-import tab from '@/assets/images/calltoaction/tab.svg'
-import watch from '@/assets/images/calltoaction/watch.svg'
+import pc from '@/assets/images/calltoaction/pc.webp'
+import laptop from '@/assets/images/calltoaction/laptop.webp'
+import phone from '@/assets/images/calltoaction/phone.webp'
+import tab from '@/assets/images/calltoaction/tab.webp'
+import watch from '@/assets/images/calltoaction/watch.webp'
 
 const CallToAction = () => {
     return (

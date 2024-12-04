@@ -7,7 +7,7 @@ import { LuUser } from "react-icons/lu";
 import { FiSearch } from "react-icons/fi";
 import { HiOutlineMenu } from "react-icons/hi";
 import { menus } from '@/data/MainMenu';
-import logoBlack from '@/assets/images/LogoBlack.svg'
+import logoBlack from '@/assets/images/LogoBlack.webp'
 import { AiOutlineClose } from "react-icons/ai";
 import Image from 'next/image';
 import MobileMenu from '@/components/mobileMenu/MobileMenu';
@@ -68,7 +68,7 @@ const Header = () => {
                         <button onClick={() => setMobileMenu(false)} className='border-none outline-none lg:hidden'><AiOutlineClose className='text-2xl' /></button>}
                 </div>
                 {/* mobile menu  */}
-                <MobileMenu setMobileMenu={setMobileMenu} mobileMenu={mobileMenu}/>
+                <MobileMenu setMobileMenu={setMobileMenu} mobileMenu={mobileMenu} />
             </div>
         </section>
     )

@@ -1,7 +1,7 @@
 import PrimaryButton from '@/components/button/PrimaryButton'
 import Image from 'next/image'
 import React from 'react'
-import bannerImg from '@/assets/images/banner.png'
+import bannerImg from '@/assets/images/banner.webp'
 const Banner = () => {
     return (
         <section className='bg-[#211c24] overflow-hidden'>

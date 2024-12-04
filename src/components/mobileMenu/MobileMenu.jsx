@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import logoBlack from '@/assets/images/LogoBlack.svg'
+import logoBlack from '@/assets/images/LogoBlack.webp'
 import Link from 'next/link'
-const MobileMenu = ({mobileMenu, setMobileMenu}) => {
+const MobileMenu = ({ mobileMenu, setMobileMenu }) => {
     return (
         <div className={`lg:hidden fixed duration-300 top-0 rounded-e-xl p-4 w-[70%] min-[422px]:w-[50%] min-[500px]:w-[40%] shadow-lg h-screen bg-white z-[999] ${mobileMenu ? "left-0" : "-left-[100%]"}`}>
             <div className="flex justify-between">

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '@/assets/images/Logo.svg'
+import logo from '@/assets/images/Logo.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Assistance, services } from '@/data/MainMenu'
@@ -40,29 +40,29 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-6">
-                        <ul className='flex items-center gap-[36.33px] justify-center md:justify-start'>
-                            <li>
-                                <Link href="#">
-                                    <FaTwitter  className='text-white text-xl'/>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#">
-                                    <FaFacebookF className='text-white text-xl'/>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#">
-                                    <FaTiktok  className='text-white text-xl'/>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#">
-                                    <RiInstagramFill  className='text-white text-xl'/>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul className='flex items-center gap-[36.33px] justify-center md:justify-start'>
+                        <li>
+                            <Link href="#">
+                                <FaTwitter className='text-white text-xl' />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <FaFacebookF className='text-white text-xl' />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <FaTiktok className='text-white text-xl' />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <RiInstagramFill className='text-white text-xl' />
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
     )

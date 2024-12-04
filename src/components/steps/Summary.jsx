@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import img from '@/assets/images/products/Iphone14pro.svg'
+import img from '@/assets/images/products/Iphone14pro.webp'
 const Summary = () => {
     return (
         <div className='w-full border rounded-[10px] px-6 py-8'>
@@ -29,23 +29,23 @@ const Summary = () => {
                 </div>
             </div>
             <ul className='flex flex-col gap-2 mt-6'>
-                    <li className='w-full flex items-center justify-between'>
-                        <span className='text-[16px] font-medium leading-8 text-black'>Subtotal</span>
-                        <span className='text-[16px] font-medium leading-8 text-black'>$2347</span>
-                    </li>
-                    <li className='w-full flex items-center justify-between'>
-                        <span className='text-[16px] font-normal leading-8 text-[#545454]'>Estimated Tax</span>
-                        <span className='text-[16px] font-medium leading-8 text-black'>$50</span>
-                    </li>
-                    <li className='w-full flex items-center justify-between'>
-                        <span className='text-[16px] font-normal leading-8 text-[#545454]'>Estimated shipping & Handling</span>
-                        <span className='text-[16px] font-medium leading-8 text-black'>$29</span>
-                    </li>
-                    <li className='w-full flex items-center justify-between'>
-                        <span className='text-[16px] font-medium leading-8 text-black'>Total</span>
-                        <span className='text-[16px] font-medium leading-8 text-black'>$2426</span>
-                    </li>
-                </ul>
+                <li className='w-full flex items-center justify-between'>
+                    <span className='text-[16px] font-medium leading-8 text-black'>Subtotal</span>
+                    <span className='text-[16px] font-medium leading-8 text-black'>$2347</span>
+                </li>
+                <li className='w-full flex items-center justify-between'>
+                    <span className='text-[16px] font-normal leading-8 text-[#545454]'>Estimated Tax</span>
+                    <span className='text-[16px] font-medium leading-8 text-black'>$50</span>
+                </li>
+                <li className='w-full flex items-center justify-between'>
+                    <span className='text-[16px] font-normal leading-8 text-[#545454]'>Estimated shipping & Handling</span>
+                    <span className='text-[16px] font-medium leading-8 text-black'>$29</span>
+                </li>
+                <li className='w-full flex items-center justify-between'>
+                    <span className='text-[16px] font-medium leading-8 text-black'>Total</span>
+                    <span className='text-[16px] font-medium leading-8 text-black'>$2426</span>
+                </li>
+            </ul>
         </div>
     )
 }
