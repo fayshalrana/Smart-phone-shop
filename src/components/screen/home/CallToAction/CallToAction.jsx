@@ -27,7 +27,7 @@ const CallToAction = () => {
                     <h2 className='text-center text-[48px] lg:text-[72px] font-extralight text-white -tracking-[1%]'>Big Summer <span className='font-bold'>Sale</span></h2>
                     <p className='text-center text-[16px] font-normal text-secondary leading-8'>Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
                     <div className="flex items-center mt-10">
-                        <PrimaryButton name={"Shop Now"} normal path={"#"} />
+                        <PrimaryButton name={"Shop Now"} normal path={"/shop"} />
                     </div>
                 </div>
             </div>
