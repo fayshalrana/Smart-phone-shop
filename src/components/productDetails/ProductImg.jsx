@@ -1,10 +1,10 @@
 "use client";
 import Image from 'next/image';
 import React, { useState } from 'react';
-import image1 from '@/assets/images/products/phone1.webp';
-import image2 from '@/assets/images/products/phone2.webp';
-import image3 from '@/assets/images/products/phone3.webp';
-import image4 from '@/assets/images/products/phone4.webp';
+import image1 from '@/assets/images/products/detailsImg.svg';
+import image2 from '@/assets/images/products/detailsImg2.svg';
+import image3 from '@/assets/images/products/detailsImg3.svg';
+import image4 from '@/assets/images/products/detailsImg4.svg';
 
 const ProductImg = () => {
     const [image, setImage] = useState(image1);

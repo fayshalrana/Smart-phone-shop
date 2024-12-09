@@ -7,7 +7,7 @@ import PrimaryButton from '../button/PrimaryButton';
 
 const ProductCard = ({product, index }) => {
     const [love, setLove] = useState(false);
-
+console.log(product)
     // Check if the index is within bounds
     // const product = products[index] || products[0]; // Fallback to the first product if index is out of bounds or undefined
 
